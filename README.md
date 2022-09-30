@@ -19,7 +19,6 @@ npm run build
 ### Execute test case
 ```
 npm run test
-
 ```
 
 ### Lints and fixes files
