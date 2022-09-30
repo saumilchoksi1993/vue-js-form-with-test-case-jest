@@ -28,7 +28,7 @@ er<template>
             Date of birth
           </label>
           <div class="datepicker relative form-floating mb-3 xl:w-96">
-            <input v-model="form.date_of_birth" id="date_of_birth" type="date" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" :class="{'border-red-700': date_of_birth_error}" placeholder="Select a date" />
+            <input v-model="form.date_of_birth" id="date_of_birth" type="date" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" :class="{'border-red-700': date_of_birth_error}" placeholder="Select a date" />
           </div>
           <span v-show="date_of_birth_error" class="text-red-700 error_date_of_birth">Date of birth Required</span>
         </div>
